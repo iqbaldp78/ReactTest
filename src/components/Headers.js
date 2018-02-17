@@ -9,16 +9,16 @@ export default class Headers extends React.Component
             <Navbar>
                 {/* <Navbar.Header> */}
                     <Navbar.Brand>
-                        <a href="/">Our Awesome Store</a>
+                        <a href="/">Hamboo</a>
                     </Navbar.Brand>
                     {/* <Navbar.Toggle /> */}
                 {/* </Navbar.Header> */}
                 <Navbar.Collapse>
                 <Nav pullRight>
                     <NavItem eventKey={1} href="#">Home</NavItem>
-                    <NavItem eventKey={2} href="#">Shop</NavItem>
+                    <NavItem eventKey={2} href="#">Profile</NavItem>
                     <NavItem eventKey={3} href="#">
-                        <Glyphicon glyph="shopping-cart" /> {'Cart'} </NavItem>
+                        <Glyphicon glyph="shopping-cart" /> {'Book'} </NavItem>
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>
